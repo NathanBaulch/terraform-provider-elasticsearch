@@ -34,7 +34,7 @@ checksum:
 signs:
   - artifacts: checksum
     args:
-      # pass the batch flag to indicate its not interactive.
+      # pass the batch flag to indicate it's not interactive.
       - "--batch"
       - "--local-user"
       - "{{ .Env.GPG_FINGERPRINT }}"
